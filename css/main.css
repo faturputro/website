@@ -1938,6 +1938,7 @@ html.no-csstransitions .home-content__main {
     font-weight:normal;
     width:50%;
     margin-left:30px;
+    text-align:left;
 }
 .about-desc img{
     display:flex;
