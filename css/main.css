@@ -1141,7 +1141,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     float: left;
     font-family: "nexaLight";
     color:#b8b8b8;
-    left:83px;
+    left:8rem;
     margin-top: 40px;
     margin-left: auto;
     letter-spacing: 2px;
@@ -1945,11 +1945,11 @@ html.no-csstransitions .home-content__main {
     float:right;
     width:350px;
     height:350px;
-    right:50px;
+    right:3rem;
     border:none;
     border-radius:50%;
     position: relative;
-    margin-top:50px;
+    margin-top:6rem;
 }
 /* -------------------------------------------------------------------
  * ## about stats

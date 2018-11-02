@@ -49,9 +49,9 @@ h1, .h1 {
  and (orientation: portrait) {
     .header-logo h3{
       width:150px;
-      font-size:11.5px;
+      font-size:9.5px;
       margin-left:-88px;
-      margin-top:-10px;
+      margin-top:0.7rem;
     }
     .home-content__scroll a{
       right:-5px;
@@ -71,7 +71,7 @@ h1, .h1 {
       width:160px;
       font-size:11.5px;
       margin-left:-88px;
-      margin-top:-10px;
+      margin-top:1rem;
     }
     .home-content__scroll a{
       right:-5px;
@@ -83,7 +83,6 @@ h1, .h1 {
       right:50%;
     }
   }
-}
   @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -504,7 +503,7 @@ h1, .h1 {
         position: relative;
         margin-bottom:30px;
         margin-top:10px;
-        left:-48px;
+        left:-4.9rem;
     }
     .about-desc p{
         margin:auto;
@@ -540,7 +539,7 @@ h1, .h1 {
         position: relative;
         margin-bottom:30px;
         margin-top:10px;
-        left:-80px;
+        left:-8rem;
     }
     .about-desc p{
         margin:auto;
@@ -676,7 +675,7 @@ h1, .h1 {
           width:260px;
           height:16px;
           font-size:10px;
-          margin-left: 10px;
+          margin-left: 2rem;
       }
       .skill-bar-percent{
           right:-30px;
@@ -684,7 +683,7 @@ h1, .h1 {
       .skillbar-title{
           text-align:center;
           margin-top:28px;
-          margin-left:-50px;
+          left:2rem;
           font-size:13px;
       }
 }
@@ -697,7 +696,7 @@ h1, .h1 {
           width:300px;
           height:20px;
           font-size:12px;
-          margin-left: 30px;
+          left: 0.9rem;
       }
       .skill-bar-percent{
           right:-30px;
@@ -705,7 +704,7 @@ h1, .h1 {
       .skillbar-title{
           text-align:center;
           margin-top:28px;
-          margin-left:-50px;
+          margin-left:1rem;
           font-size:13px;
       }
 }
@@ -719,7 +718,7 @@ h1, .h1 {
         width:300px;
         height:20px;
         font-size:12px;
-        margin-left: 40px;
+        left: 2rem;
     }
     .skill-bar-percent{
         right:-40px;
