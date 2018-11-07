@@ -1913,7 +1913,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
     padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-bottom: 13rem;
     background-color: #090909;
     color: #b8b8b8;
     position: relative;
@@ -2638,6 +2638,9 @@ html.no-csstransitions .home-content__main {
       text-align: right;
     }
   }
+h2[title*="SMAN 55 JAKARTA"] {
+    margin-top:0 !important;
+}
 /* ===================================================================
  * # contact
  *
@@ -2646,7 +2649,7 @@ html.no-csstransitions .home-content__main {
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
-    padding-bottom: 12rem;
+    padding-bottom:0;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2969,7 +2972,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 0 0 1rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
