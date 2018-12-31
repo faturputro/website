@@ -1115,7 +1115,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position:relative;
     animation:fadeIn;
     animation-duration: 2s;
-    width: 67%;
+    width: 50vw;
     height:35px;
     margin-top:40px;
     margin-left:305px;
@@ -1138,36 +1138,28 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skillbar-title {
     position:absolute;
-    float: left;
     font-family: "nexaLight";
     color:#b8b8b8;
-    left:8rem;
     margin-top: 40px;
-    margin-left: auto;
     letter-spacing: 2px;
+    left:10vw;
 }
 
 .skillbar-bar {
-height:10px;
-width:0px;
-background:#1abc9c;
-border-radius:0px;
--moz-border-radius:0px;
--webkit-border-radius:0px;
-float: left;
-position: absolute;
-top:12.5px;
-}
-
-.containers {
-    min-width: 100%;
-      width: 100vh;
+    height:10px;
+    width:0px;
+    background:#1abc9c;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    position:absolute;
+    top:12.5px;
 }
 
 .skill-bar-percent {
     position:absolute;
     top:0;
-    right:-40px;
+    right:-13vw;
     margin-right: 10px;
     font-size:11px;
     height:35px;
@@ -1324,7 +1316,6 @@ top:12.5px;
  * ------------------------------------------------------------------- */
 .s-header {
     width: 100%;
-    height: 96px;
     background-color: transparent;
     position: absolute;
     top: 0;
@@ -1336,22 +1327,18 @@ top:12.5px;
 .header-logo {
     display: inline-block;
     position: absolute;
-    margin: 3px 0px 0px 80px;
-    padding: 0;
     left: 40px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
+    -webkit-transform: translateY(60%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     z-index: 501;
 }
 
-.header-logo h3 {
-    margin: 9px 0 0 0;
-    padding: 0;
+.site-logo h3{
     outline: 0;
-    font-size:18px;
-    width: 400px;
+    font-weight:0 !important;
+    font-size:16px !important;
+    width: 380px;
     color:#fff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -1367,7 +1354,7 @@ top:12.5px;
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
-    height: 100%;
+    height: 100vh;
     width: 280px;
     position: fixed;
     right: 0;
@@ -1924,6 +1911,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
+    height:80vh;
+    position: relative;
     font-size: 2.4rem;
     line-height: 1.75;
     text-align: center;
@@ -1931,25 +1920,26 @@ html.no-csstransitions .home-content__main {
     text-align: justify;
 }
 
-.about-desc p{
-    display:flex;
+.about-p {
+    top:10%;
+    width:50%;
+    position: absolute;
     font-family:"avenir-light";
     font-style:normal;
     font-weight:normal;
-    width:50%;
-    margin-left:30px;
     text-align:left;
 }
-.about-desc img{
-    display:flex;
-    float:right;
-    width:350px;
-    height:350px;
-    right:3rem;
+
+.about-img img{
+    left:50%;
+    top:50%;
+    width:30vw;
     border:none;
     border-radius:50%;
-    position: relative;
-    margin-top:13rem;
+    position: absolute;
+    transform: translate(20%,-50%);
+    -webkit-transform: translate(20%,-50%);
+    -ms-transform:translate(20%,-50%);
 }
 /* -------------------------------------------------------------------
  * ## about stats

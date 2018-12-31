@@ -45,7 +45,7 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-            <h3>FATURACHMAN DWI PUTRO</h3>
+                <h3>FATURACHMAN DWI PUTRO</h3>
             </a>
         </div>
         <nav class="header-nav">
@@ -110,14 +110,25 @@
                 <h1 class="display-1 display-1--light">ABOUT</h1>
             </div>
         </div> <!-- end section-header -->
-        <div class="row about-desc" data-aos="fade-up">
-              <img src="images/avatars/profpic.jpg" alt="profpic">
-              <br>
-              <br>
-                <p>
-                I am a passionate and hardworking person who is used to handle problems with patience and persistence. My cooperative nature of working in a group, really helps me to complete the work quickly and precisely. A dynamic working environment also gives me the energy to contribute my ideas to the society. That's why I always look forward to working in a fast-paced community, which concern most about good performances and a modern establishment.</p>
+        <div class="container-fluid">
+            <div class="row about-desc" data-aos="fade-up">
+                <div class="col-md-6 about-img">
+                    <div class="img-about justify-content-center">
+                        <img src="images/avatars/profpic.jpg" alt="profpic">
+                    </div>
+                </div>  
+                <div class="col-md-6 about-p">
+                    <p>
+                        I am a passionate and hardworking person who is used to handle problems
+                        with patience and persistence. My cooperative nature of working in a group, 
+                        really helps me to complete the work quickly and precisely. A dynamic
+                        working environment also gives me the energy to contribute my ideas to the
+                        society. That's why I always look forward to working in a fast-paced community,
+                        which concern most about good performances and a modern establishment.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
         <div class="about__line"></div>
     </section> 
     <section id='services' class="s-services">
@@ -180,41 +191,54 @@
                     <h1 class="display-2 display-2--light">SKILLS</h1>
                 </div>
             </div> <!-- end section-header -->
-        <div id="skills" class="container" data-aos="fadeIn"></div>
+        <div id="skills" class="container-fluid" data-aos="fadeIn">
         <div class="skillbar-title col-lg-1" ></div>
-        <div class="skillbar clearfix ">
+        <div class="skillbar clearfix">
             <div class="skillbar-bar"></div>
             <div class="skill-bar-percent"></div>
         </div>
-        <div class="skillbar-title col-lg-1">HTML</div>
-        <div class="skillbar clearfix " data-percent="90%">
-            <div class="skillbar-bar"></div>
-            <div class="skill-bar-percent">90%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm-3">HTML</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="90%">
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent col-sm-3">90%</div>
+            </div>
         </div>
-        <div class="skillbar-title col-lg-1" >JavaScript</div>
-        <div class="skillbar clearfix" data-percent="65%">
-            <div class="skillbar-bar" ></div>
-            <div class="skill-bar-percent">65%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm-3">JavaScript</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="65%">
+                <div class="skillbar-bar" ></div>
+                <div class="skill-bar-percent col-sm-3">65%</div>
+            </div>
         </div>
-        <div class="skillbar-title col-lg-1">CSS</div>
-        <div class="skillbar clearfix " data-percent="80%">
-            <div class="skillbar-bar"></div>
-            <div class="skill-bar-percent">80%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm-3">CSS</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="80%">
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent col-sm-3">80%</div>
+            </div>
         </div>
-        <div class="skillbar-title col-lg-1" >Adobe XD</div>
-        <div class="skillbar clearfix " data-percent="60%">
-            <div class="skillbar-bar"></div>
-            <div class="skill-bar-percent">60%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm-3" >Adobe XD</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="60%">
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent col-sm-3">60%</div>
+            </div>
         </div>
-        <div class="skillbar-title col-lg-1" >Adobe Muse</div>
-        <div class="skillbar clearfix " data-percent="50%">
-            <div class="skillbar-bar" ></div>
-            <div class="skill-bar-percent">50%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm-3" >Adobe Muse</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="50%">
+                <div class="skillbar-bar" ></div>
+                <div class="skill-bar-percent col-sm-3">50%</div>
+            </div>
         </div>
-        <div class="skillbar-title col-lg-1" >MySQL</div>
-        <div class="skillbar clearfix " data-percent="85%">
-            <div class="skillbar-bar"></div>
-            <div class="skill-bar-percent">85%</div>
+        <div class="row">
+            <div class="skillbar-title col-sm3" >MySQL</div>
+            <div class="skillbar clearfix col-sm-6" data-percent="85%">
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent col-sm-3">85%</div>
+            </div>
+        </div>
         </div>
         </div> <!-- end works-content -->
     </section> <!-- end s-works -->
@@ -387,7 +411,7 @@
                 </div>
         </div> 
     </footer> 
-    <div id="preloader">
+    <!--<div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
                 <div></div>
@@ -397,7 +421,7 @@
                 <div></div>
             </div>
         </div>
-    </div>
+    </div>-->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
