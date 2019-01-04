@@ -1324,6 +1324,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
+
 .header-logo {
     display: inline-block;
     position: absolute;
@@ -1337,7 +1338,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .site-logo h3{
     outline: 0;
     font-weight:0 !important;
-    font-size:16px !important;
+    font-size:12px !important;
     width: 380px;
     color:#fff;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1637,27 +1638,36 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     overflow: hidden;
 }
 
+.header-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    display:block;
+    font-family: "montserrat-light", sans-serif;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
-    letter-spacing: 5px;
-    position: relative;
+    letter-spacing: 14px;
     margin-top: 0;
-    margin-bottom: 0.2rem;
-    margin-left: 6px;
     text-align: center;
 
 }
 
 .home-content h1 {
+    display:block;
     font-family: "montserrat-medium", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
     text-align: center;
+    letter-spacing: 10px;
 }
 
 .home-content__main {
