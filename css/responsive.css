@@ -107,9 +107,7 @@ h1, .h1 {
   and (-webkit-min-device-pixel-ratio: 2) {
     .header-logo h3{
         width:250px;
-        font-size:22px;
-        margin-left:-48px;
-        margin-top:px;
+        font-size:16px !important;
       }
       .home-content__scroll a{
         right:-5px;
@@ -576,14 +574,11 @@ h1, .h1 {
         transform:translate(-50%);
     }
     .about-desc p{
-        font-size:15.3px;
-        width:43.5rem;
-        top: 0;
-        left:50%;
-        right:50%;
-        -webkit-transform: translate(0,50%);
-        -ms-transform: translate(0,50%);
-        transform: translate(0,50%);
+        font-size:2.4rem;
+        width:70vw;
+        -webkit-transform: translate(3%,62%);
+        -ms-transform: translate(3%,62%);
+        transform: translate(3%,62%);
     }
 }
 @media only screen 
@@ -602,14 +597,11 @@ h1, .h1 {
         transform:translate(-50%);
     }
     .about-desc p{
-        font-size:28.3px;
-        width:550px;
-        top: 0;
-        left:50%;
-        right:50%;
-        -webkit-transform: translate(0,50%);
-        -ms-transform: translate(0,50%);
-        transform: translate(0,50%);
+        font-size:2.8rem;
+        width:70vw;
+        -webkit-transform: translate(13%,75%);
+        -ms-transform: translate(13%,75%);
+        transform: translate(13%,75%);
     }
 }
 /* -------------------------------------------------------------------
@@ -762,19 +754,41 @@ h1, .h1 {
         width:73vw;
         height:50px;
         font-size:16px;
-        top:4.2rem;
-        left:-1.6rem;
+        top:1.2rem;
+        left:-26.6rem;
     }
     .skillbar-title{
         text-align:center;
         margin-top:28px;
-        margin-left:-50px;
+        margin-left:.2rem;
+        font-size:16px;
+    }
+    .skill-bar-percent{
+        right:-6.8rem;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .skillbar{
+        width:73vw;
+        height:50px;
+        font-size:16px;
+        top:1.2rem;
+        left:-23.6rem;
+    }
+    .skillbar-title{
+        text-align:center;
+        margin-top:28px;
+        margin-left:.2rem;
         font-size:16px;
     }
     .skill-bar-percent{
         right:-7.8rem;
     }
-}
+  }
 
   /* -------------------------------------------------------------------
  * responsive:
