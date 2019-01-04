@@ -1075,14 +1075,22 @@ h1, .h1 {
         padding:0;
     }
     .go-top a, .go-top a:visited {
-        height:30px;
-        width:30px;
+        height:50px;
+        width:50px;
         line-height:50px;
         margin:0;
         padding:0;
     }
+
+    .go-top i{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+
     .go-top a i, .go-top a:visited i {
-        font-size:12px;
+        font-size:16px;
     }
 }
 /* -------------------------------------------------------------------

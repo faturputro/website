@@ -53,7 +53,7 @@
 
         $WIN.on('scroll', function() {
 
-            if ($WIN.scrollTop() > 700) {
+            if ($WIN.scrollTop() > 100) {
                 menuTrigger.addClass('opaque');
             }
             else {
