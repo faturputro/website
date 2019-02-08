@@ -529,6 +529,7 @@ h1, .h1 {
         top: 0;
         left:50%;
         right:50%;
+        margin-top: 22px;
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
@@ -555,6 +556,7 @@ h1, .h1 {
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
+        margin-top: 34px;
     }
 }
 @media only screen 
@@ -579,6 +581,7 @@ h1, .h1 {
         -webkit-transform: translate(3%,62%);
         -ms-transform: translate(3%,62%);
         transform: translate(3%,62%);
+        text-align: justify;
     }
 }
 @media only screen 
